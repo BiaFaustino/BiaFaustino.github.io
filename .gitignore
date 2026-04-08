@@ -410,6 +410,11 @@ FodyWeavers.xsd
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Next.js
+.next/
+out/
+build/
+
 # Windows Installer files from build outputs
 *.cab
 *.msi
