@@ -65,16 +65,6 @@ jobs:
           version: 8
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          # Automatically inject basePath in your Next.js config file and disable
-          # server side image optimization (WebP).
-          #
-          # You can restore this SHA if you'd like to use a different version
-          # static_site_generator: next
-          #
-          # Note: We already have output: 'export' in next.config.ts
-          # so we don't need the automatic injection here as much.
-          pass
       - name: Restore cache
         uses: actions/cache@v4
         with:
